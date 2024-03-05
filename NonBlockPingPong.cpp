@@ -53,8 +53,8 @@ int main(int argc, char *argv[]) {
                 MPI_Wait(&recv_request, &status);
             } else if (rank == 1) {
                 MPI_Irecv(buffer, msg_size, MPI_CHAR, 0, 0, MPI_COMM_WORLD, &recv_request);
-                MPI_Wait(&recv_request, &status);
                 MPI_Isend(buffer, msg_size, MPI_CHAR, 0, 0, MPI_COMM_WORLD, &send_request);
+                MPI_Wait(&recv_request, &status);
                 MPI_Wait(&send_request, &status);
             }
         }
