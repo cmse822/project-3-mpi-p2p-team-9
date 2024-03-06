@@ -2,7 +2,7 @@
 
 ## Part 1: Blocking Ping-Pong
 
-1. The code for Blocking Ping Pong (here)
+The code for Blocking Ping Pong ([Here](./PingPong.cpp))
 
 ![P1-lat](./Visualization/P1-lat.png)
 
@@ -10,6 +10,16 @@
 
 ## Part 2: Non-block Ping-Pong
 
+The code for Non-Blocking Ping Pong ([Here](./NonBlockPingPong.cpp))
+
+![P2-lat](./Visualization/P2-Lat.png)
+
+![P2-Ban](./Visualization/P2-Ban.png)
+
+
+![P2-comparison-Latency](./Visualization/P2-Compare.png)
+
+![P2-comparison-Bandwidth](./Visualization/P2-Compare2.png)
 
 ## Part 3: MPI Ring Shift
 
