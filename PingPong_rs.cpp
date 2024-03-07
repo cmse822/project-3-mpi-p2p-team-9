@@ -12,23 +12,23 @@ using namespace std;
 int main(int argc, char *argv[])
 {
 
-    int i, n;
-    int rank,size;
+int i, n;
+int rank,size;
 
-    MPI_Init(&argc, &argv);
+MPI_Init(&argc, &argv);
 
-    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
-    MPI_Comm_size(MPI_COMM_WORLD, &size);
+MPI_Comm_size(MPI_COMM_WORLD, &size);
 
-    if(size < 2) {
-    cout << "Not enough ranks to ping pong please sue at least 2" << endl;
-    }
+if(size < 2) {
+  cout << "Not enough ranks to ping pong please sue at least 2" << endl;
+}
 
-    int sizes[] = {2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096};
-    int num_sizes = sizeof(sizes) / sizeof(int);
-    int iterations = 10000;
-    double start_time, end_time, elapsed_time;
+int sizes[] = {2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096};
+int num_sizes = sizeof(sizes) / sizeof(int);
+int iterations = 10000;
+double start_time, end_time, elapsed_time;
 
     for (int i = 0; i < num_sizes; i++) {
         int msg_size = sizes[i];
@@ -41,13 +41,22 @@ int main(int argc, char *argv[])
         MPI_Barrier(MPI_COMM_WORLD); // Make sure both processes start at roughly the same time
         start_time = MPI_Wtime();
 
-        for (int j = 0; j < iterations; j++)
-        {
-            MPI_Sendrecv(buffer, msg_size, MPI_CHAR, (rank + 1) % size, 0,
-                            buffer, msg_size, MPI_CHAR, (rank - 1 + size) % size, 0,
-                            MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-        }
-
+        
+        // // need to modify here right now is not working
+        // for (int j = 0; j < iterations; j++) {
+        //     if (rank == 0)
+        //     {
+        //         MPI_Sendrecv(buffer, msg_size, MPI_CHAR, N - 1, 0,
+        //                         buffer, msg_size, MPI_CHAR, N - 1, 0,
+        //                         MPI_COMM_WORLD, &status);
+        //     }
+        //     else if (rank == N - 1)
+        //     {
+        //         MPI_Sendrecv(buffer, msg_size, MPI_CHAR, 0, 0,
+        //                         buffer, msg_size, MPI_CHAR, 0, 0,
+        //                         MPI_COMM_WORLD, &status);
+        //     }
+        // }
 
         end_time = MPI_Wtime();
         elapsed_time = end_time - start_time;
@@ -59,9 +68,9 @@ int main(int argc, char *argv[])
             if (outFile.is_open()) {
                 // Add header if the file is empty
                 if (outFile.tellp() == 0) {
-                    outFile << "n_processors,bytes, wall_time ,iterations" << endl;
+                    outFile << "bytes, wall_time ,iterations" << endl;
                 }
-                outFile << size << "," << msg_size << "," << elapsed_time << "," << iterations << endl;
+                outFile << msg_size << "," << elapsed_time << "," << iterations << endl;
                 outFile.close();
                 cout << "Results appended to results.csv" << endl;
             } else {
@@ -73,8 +82,8 @@ int main(int argc, char *argv[])
         free(buffer);
         MPI_Barrier(MPI_COMM_WORLD); // Ensure all processes have finished before moving to the next message size
     }
-    MPI_Finalize();
+MPI_Finalize();
 
-    return 0;
+
 }
 
