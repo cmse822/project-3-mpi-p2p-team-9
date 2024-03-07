@@ -42,22 +42,15 @@ double start_time, end_time, elapsed_time;
         start_time = MPI_Wtime();
 
         
-        // // need to modify here right now is not working
-        // for (int j = 0; j < iterations; j++) {
-        //     if (rank == 0)
-        //     {
-        //         MPI_Sendrecv(buffer, msg_size, MPI_CHAR, N - 1, 0,
-        //                         buffer, msg_size, MPI_CHAR, N - 1, 0,
-        //                         MPI_COMM_WORLD, &status);
-        //     }
-        //     else if (rank == N - 1)
-        //     {
-        //         MPI_Sendrecv(buffer, msg_size, MPI_CHAR, 0, 0,
-        //                         buffer, msg_size, MPI_CHAR, 0, 0,
-        //                         MPI_COMM_WORLD, &status);
-        //     }
-        // }
+        // need to modify here right now is not working
+        for (int j = 0; j < iterations; j++) {
+            MPI_Sendrecv(buffer, msg_size, MPI_CHAR, (rank + 1) % size, 0,
+                 buffer, msg_size, MPI_CHAR, (rank - 1 + size) % size, 0,
+                 MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 
+            // cout << "Rank " << rank << " received from Rank " << (rank - 1 + size) % size << endl;
+            // cout << "Rank " << rank << " sent to Rank " << (rank + 1) % size << endl;
+        }
         end_time = MPI_Wtime();
         elapsed_time = end_time - start_time;
 
@@ -68,9 +61,9 @@ double start_time, end_time, elapsed_time;
             if (outFile.is_open()) {
                 // Add header if the file is empty
                 if (outFile.tellp() == 0) {
-                    outFile << "bytes, wall_time ,iterations" << endl;
+                    outFile << "n_processors,bytes, wall_time ,iterations" << endl;
                 }
-                outFile << msg_size << "," << elapsed_time << "," << iterations << endl;
+                outFile << size << ","<< msg_size << "," << elapsed_time << "," << iterations << endl;
                 outFile.close();
                 cout << "Results appended to results.csv" << endl;
             } else {
