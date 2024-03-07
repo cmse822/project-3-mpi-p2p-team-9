@@ -34,7 +34,7 @@ In comparison of the results from Part 1 (which are presented in the figures bel
 
 - Blocking communication incurs higher latency, as the sender or receiver may be busy. Nonblocking communication may overlap communication with computation, potentially reducing overall latency.
 - Same-node communication will generally maintain lower latency and higher bandwidth compared to different-node communication. However, as the size of data increases, the differences in latency and bandwidth tend to decrease.
-- The effect of changing communication type (blocking/non-blocking) is more significant than whether it is occurring intra-node or inter-node. 
+- The significance of whether the effect occurs intra-node or inter-node is higher than the impact of changing communication types (blocking/non-blocking).
 
 
 
