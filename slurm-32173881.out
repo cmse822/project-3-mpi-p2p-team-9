@@ -1,0 +1,240 @@
+Running a.out with nProcessors ...
+Testing message size: 2 bytes
+Time for 10000 iterations with message size 2 bytes: 0.137992 seconds
+Results appended to results.csv
+Testing message size: 4 bytes
+Time for 10000 iterations with message size 4 bytes: 0.135701 seconds
+Results appended to results.csv
+Testing message size: 8 bytes
+Time for 10000 iterations with message size 8 bytes: 0.138453 seconds
+Results appended to results.csv
+Testing message size: 16 bytes
+Time for 10000 iterations with message size 16 bytes: 0.134591 seconds
+Results appended to results.csv
+Testing message size: 32 bytes
+Time for 10000 iterations with message size 32 bytes: 0.134807 seconds
+Results appended to results.csv
+Testing message size: 64 bytes
+Time for 10000 iterations with message size 64 bytes: 0.129687 seconds
+Results appended to results.csv
+Testing message size: 128 bytes
+Time for 10000 iterations with message size 128 bytes: 0.130018 seconds
+Results appended to results.csv
+Testing message size: 256 bytes
+Time for 10000 iterations with message size 256 bytes: 0.133560 seconds
+Results appended to results.csv
+Testing message size: 512 bytes
+Time for 10000 iterations with message size 512 bytes: 0.135169 seconds
+Results appended to results.csv
+Testing message size: 1024 bytes
+Time for 10000 iterations with message size 1024 bytes: 0.140705 seconds
+Results appended to results.csv
+Testing message size: 2048 bytes
+Time for 10000 iterations with message size 2048 bytes: 0.150016 seconds
+Results appended to results.csv
+Testing message size: 4096 bytes
+Time for 10000 iterations with message size 4096 bytes: 0.213131 seconds
+Results appended to results.csv
+
+real	0m6.981s
+user	0m0.755s
+sys	0m1.127s
+----------------------------------------
+Running a.out with nProcessors ...
+Testing message size: 2 bytes
+Time for 10000 iterations with message size 2 bytes: 0.151579 seconds
+Results appended to results.csv
+Testing message size: 4 bytes
+Time for 10000 iterations with message size 4 bytes: 0.150701 seconds
+Results appended to results.csv
+Testing message size: 8 bytes
+Time for 10000 iterations with message size 8 bytes: 0.156108 seconds
+Results appended to results.csv
+Testing message size: 16 bytes
+Time for 10000 iterations with message size 16 bytes: 0.157795 seconds
+Results appended to results.csv
+Testing message size: 32 bytes
+Time for 10000 iterations with message size 32 bytes: 0.156294 seconds
+Results appended to results.csv
+Testing message size: 64 bytes
+Time for 10000 iterations with message size 64 bytes: 0.160942 seconds
+Results appended to results.csv
+Testing message size: 128 bytes
+Time for 10000 iterations with message size 128 bytes: 0.164324 seconds
+Results appended to results.csv
+Testing message size: 256 bytes
+Time for 10000 iterations with message size 256 bytes: 0.146085 seconds
+Results appended to results.csv
+Testing message size: 512 bytes
+Time for 10000 iterations with message size 512 bytes: 0.150888 seconds
+Results appended to results.csv
+Testing message size: 1024 bytes
+Time for 10000 iterations with message size 1024 bytes: 0.153069 seconds
+Results appended to results.csv
+Testing message size: 2048 bytes
+Time for 10000 iterations with message size 2048 bytes: 0.163201 seconds
+Results appended to results.csv
+Testing message size: 4096 bytes
+Time for 10000 iterations with message size 4096 bytes: 0.216849 seconds
+Results appended to results.csv
+
+real	0m3.198s
+user	0m0.761s
+sys	0m1.322s
+----------------------------------------
+Running a.out with nProcessors ...
+Testing message size: 2 bytes
+Time for 10000 iterations with message size 2 bytes: 0.176575 seconds
+Results appended to results.csv
+Testing message size: 4 bytes
+Time for 10000 iterations with message size 4 bytes: 0.180475 seconds
+Results appended to results.csv
+Testing message size: 8 bytes
+Time for 10000 iterations with message size 8 bytes: 0.178525 seconds
+Results appended to results.csv
+Testing message size: 16 bytes
+Time for 10000 iterations with message size 16 bytes: 0.179467 seconds
+Results appended to results.csv
+Testing message size: 32 bytes
+Time for 10000 iterations with message size 32 bytes: 0.177221 seconds
+Results appended to results.csv
+Testing message size: 64 bytes
+Time for 10000 iterations with message size 64 bytes: 0.180781 seconds
+Results appended to results.csv
+Testing message size: 128 bytes
+Time for 10000 iterations with message size 128 bytes: 0.182309 seconds
+Results appended to results.csv
+Testing message size: 256 bytes
+Time for 10000 iterations with message size 256 bytes: 0.148494 seconds
+Results appended to results.csv
+Testing message size: 512 bytes
+Time for 10000 iterations with message size 512 bytes: 0.151363 seconds
+Results appended to results.csv
+Testing message size: 1024 bytes
+Time for 10000 iterations with message size 1024 bytes: 0.153050 seconds
+Results appended to results.csv
+Testing message size: 2048 bytes
+Time for 10000 iterations with message size 2048 bytes: 0.162087 seconds
+Results appended to results.csv
+Testing message size: 4096 bytes
+Time for 10000 iterations with message size 4096 bytes: 0.221209 seconds
+Results appended to results.csv
+
+real	0m5.890s
+user	0m0.807s
+sys	0m1.452s
+----------------------------------------
+Running a.out with nProcessors ...
+Testing message size: 2 bytes
+Time for 10000 iterations with message size 2 bytes: 0.207800 seconds
+Results appended to results.csv
+Testing message size: 4 bytes
+Time for 10000 iterations with message size 4 bytes: 0.204758 seconds
+Results appended to results.csv
+Testing message size: 8 bytes
+Time for 10000 iterations with message size 8 bytes: 0.213213 seconds
+Results appended to results.csv
+Testing message size: 16 bytes
+Time for 10000 iterations with message size 16 bytes: 0.206199 seconds
+Results appended to results.csv
+Testing message size: 32 bytes
+Time for 10000 iterations with message size 32 bytes: 0.211085 seconds
+Results appended to results.csv
+Testing message size: 64 bytes
+Time for 10000 iterations with message size 64 bytes: 0.206305 seconds
+Results appended to results.csv
+Testing message size: 128 bytes
+Time for 10000 iterations with message size 128 bytes: 0.210419 seconds
+Results appended to results.csv
+Testing message size: 256 bytes
+Time for 10000 iterations with message size 256 bytes: 0.189389 seconds
+Results appended to results.csv
+Testing message size: 512 bytes
+Time for 10000 iterations with message size 512 bytes: 0.194409 seconds
+Results appended to results.csv
+Testing message size: 1024 bytes
+Time for 10000 iterations with message size 1024 bytes: 0.187232 seconds
+Results appended to results.csv
+Testing message size: 2048 bytes
+Time for 10000 iterations with message size 2048 bytes: 0.195754 seconds
+Results appended to results.csv
+Testing message size: 4096 bytes
+Time for 10000 iterations with message size 4096 bytes: 0.255719 seconds
+Results appended to results.csv
+
+real	0m9.996s
+user	0m1.008s
+sys	0m1.648s
+----------------------------------------
+Running a.out with nProcessors ...
+Testing message size: 2 bytes
+Time for 10000 iterations with message size 2 bytes: 0.219845 seconds
+Results appended to results.csv
+Testing message size: 4 bytes
+Time for 10000 iterations with message size 4 bytes: 0.211223 seconds
+Results appended to results.csv
+Testing message size: 8 bytes
+Time for 10000 iterations with message size 8 bytes: 0.223335 seconds
+Results appended to results.csv
+Testing message size: 16 bytes
+Time for 10000 iterations with message size 16 bytes: 0.210829 seconds
+Results appended to results.csv
+Testing message size: 32 bytes
+Time for 10000 iterations with message size 32 bytes: 0.217141 seconds
+Results appended to results.csv
+Testing message size: 64 bytes
+Time for 10000 iterations with message size 64 bytes: 0.214273 seconds
+Results appended to results.csv
+Testing message size: 128 bytes
+Time for 10000 iterations with message size 128 bytes: 0.219579 seconds
+Results appended to results.csv
+Testing message size: 256 bytes
+Time for 10000 iterations with message size 256 bytes: 0.253693 seconds
+Results appended to results.csv
+Testing message size: 512 bytes
+Time for 10000 iterations with message size 512 bytes: 0.266540 seconds
+Results appended to results.csv
+Testing message size: 1024 bytes
+Time for 10000 iterations with message size 1024 bytes: 0.210565 seconds
+Results appended to results.csv
+Testing message size: 2048 bytes
+Time for 10000 iterations with message size 2048 bytes: 0.219315 seconds
+Results appended to results.csv
+Testing message size: 4096 bytes
+Time for 10000 iterations with message size 4096 bytes: 0.300873 seconds
+Results appended to results.csv
+
+real	0m6.888s
+user	0m1.030s
+sys	0m1.915s
+----------------------------------------
+JobId=32173881 JobName=HW
+   UserId=liangqi1(948536) GroupId=cmse(2362) MCS_label=N/A
+   Priority=61641 Nice=0 Account=general QOS=liangqi1
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:00:35 TimeLimit=00:10:00 TimeMin=N/A
+   SubmitTime=2024-03-07T11:45:32 EligibleTime=2024-03-07T11:45:32
+   AccrueTime=2024-03-07T11:45:32
+   StartTime=2024-03-07T11:45:33 EndTime=2024-03-07T11:55:33 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2024-03-07T11:45:33 Scheduler=Backfill
+   Partition=general-long AllocNode:Sid=dev-amd20:36010
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=lac-[354-360,408-417,419,432-445]
+   BatchHost=lac-354
+   NumNodes=32 NumCPUs=32 NumTasks=32 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=32,mem=64G,node=32,billing=9961
+   AllocTRES=cpu=32,mem=64G,node=32,billing=9961
+   Socks/Node=* NtasksPerN:B:S:C=1:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=[intel14|intel16|intel18|(amr|acm)|nvf|nal|nif] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/ufs18/home-212/liangqi1/Documents/CMSE_822/project-3-mpi-p2p-team-9/job.sb
+   WorkDir=/mnt/ufs18/home-212/liangqi1/Documents/CMSE_822/project-3-mpi-p2p-team-9
+   Comment=stdout=/mnt/ufs18/home-212/liangqi1/Documents/CMSE_822/project-3-mpi-p2p-team-9/slurm-32173881.out 
+   StdErr=/mnt/ufs18/home-212/liangqi1/Documents/CMSE_822/project-3-mpi-p2p-team-9/slurm-32173881.out
+   StdIn=/dev/null
+   StdOut=/mnt/ufs18/home-212/liangqi1/Documents/CMSE_822/project-3-mpi-p2p-team-9/slurm-32173881.out
+   Power=
+   
+
