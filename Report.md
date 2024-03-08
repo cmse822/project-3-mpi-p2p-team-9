@@ -45,6 +45,18 @@ In comparison of the results from Part 1 (which are presented in the figures bel
 
 ## Part 3: MPI Ring Shift
 
+![](./Visualization2/P3-1.png)
+
+![](./Visualization2/P3-2.png)
+
 
 ## Part 4: Non-blocking MPI Ring Shift
 
+![](./Visualization2/P3-3.png)
+
+![](./Visualization2/P3-4.png)
+
+
+![](./Visualization2/P3-c1.png)
+
+![](./Visualization2/P3-c2.png)
