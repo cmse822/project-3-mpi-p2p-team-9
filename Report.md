@@ -45,12 +45,16 @@ In comparison of the results from Part 1 (which are presented in the figures bel
 
 ## Part 3: MPI Ring Shift
 
+The code for Blocking Ring Shift can be found [here](./MPIringshift.cpp)
+
 ![](./Visualization2/P3-1.png)
 
 ![](./Visualization2/P3-2.png)
 
 
 ## Part 4: Non-blocking MPI Ring Shift
+
+The code for Non-Blocking Ring Shift can be found [here](./NonBlockringshift.cpp)
 
 ![](./Visualization2/P3-3.png)
 
@@ -59,4 +63,4 @@ In comparison of the results from Part 1 (which are presented in the figures bel
 
 ![](./Visualization2/P3-c1.png)
 
-![](./Visualization2/P3-c2.png)
+![](./Visualization2/p3-c2.png)
