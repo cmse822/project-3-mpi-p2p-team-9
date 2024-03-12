@@ -1,0 +1,366 @@
+Running NonBlockringshift with nProcessors ...
+Testing message size: 2 bytes
+Time for 10000 iterations with message size 2 bytes: 0.005094 seconds
+Results appended to results.csv
+Testing message size: 4 bytes
+Time for 10000 iterations with message size 4 bytes: 0.005026 seconds
+Results appended to results.csv
+Testing message size: 8 bytes
+Time for 10000 iterations with message size 8 bytes: 0.005011 seconds
+Results appended to results.csv
+Testing message size: 16 bytes
+Time for 10000 iterations with message size 16 bytes: 0.005614 seconds
+Results appended to results.csv
+Testing message size: 32 bytes
+Time for 10000 iterations with message size 32 bytes: 0.005679 seconds
+Results appended to results.csv
+Testing message size: 64 bytes
+Time for 10000 iterations with message size 64 bytes: 0.005767 seconds
+Results appended to results.csv
+Testing message size: 128 bytes
+Time for 10000 iterations with message size 128 bytes: 0.005908 seconds
+Results appended to results.csv
+Testing message size: 256 bytes
+Time for 10000 iterations with message size 256 bytes: 0.006245 seconds
+Results appended to results.csv
+Testing message size: 512 bytes
+Time for 10000 iterations with message size 512 bytes: 0.007005 seconds
+Results appended to results.csv
+Testing message size: 1024 bytes
+Time for 10000 iterations with message size 1024 bytes: 0.014898 seconds
+Results appended to results.csv
+Testing message size: 2048 bytes
+Time for 10000 iterations with message size 2048 bytes: 0.018772 seconds
+Results appended to results.csv
+Testing message size: 4096 bytes
+Time for 10000 iterations with message size 4096 bytes: 0.042615 seconds
+Results appended to results.csv
+
+real	0m4.347s
+user	0m0.300s
+sys	0m0.184s
+----------------------------------------
+Running NonBlockringshift with nProcessors ...
+Testing message size: 2 bytes
+Time for 10000 iterations with message size 2 bytes: 0.007805 seconds
+Results appended to results.csv
+Testing message size: 4 bytes
+Time for 10000 iterations with message size 4 bytes: 0.007656 seconds
+Results appended to results.csv
+Testing message size: 8 bytes
+Time for 10000 iterations with message size 8 bytes: 0.007654 seconds
+Results appended to results.csv
+Testing message size: 16 bytes
+Time for 10000 iterations with message size 16 bytes: 0.008373 seconds
+Results appended to results.csv
+Testing message size: 32 bytes
+Time for 10000 iterations with message size 32 bytes: 0.008441 seconds
+Results appended to results.csv
+Testing message size: 64 bytes
+Time for 10000 iterations with message size 64 bytes: 0.008835 seconds
+Results appended to results.csv
+Testing message size: 128 bytes
+Time for 10000 iterations with message size 128 bytes: 0.008940 seconds
+Results appended to results.csv
+Testing message size: 256 bytes
+Time for 10000 iterations with message size 256 bytes: 0.009264 seconds
+Results appended to results.csv
+Testing message size: 512 bytes
+Time for 10000 iterations with message size 512 bytes: 0.010642 seconds
+Results appended to results.csv
+Testing message size: 1024 bytes
+Time for 10000 iterations with message size 1024 bytes: 0.022432 seconds
+Results appended to results.csv
+Testing message size: 2048 bytes
+Time for 10000 iterations with message size 2048 bytes: 0.028362 seconds
+Results appended to results.csv
+Testing message size: 4096 bytes
+Time for 10000 iterations with message size 4096 bytes: 0.065436 seconds
+Results appended to results.csv
+
+real	0m3.801s
+user	0m0.784s
+sys	0m0.336s
+----------------------------------------
+Running NonBlockringshift with nProcessors ...
+Testing message size: 2 bytes
+Time for 10000 iterations with message size 2 bytes: 0.007745 seconds
+Results appended to results.csv
+Testing message size: 4 bytes
+Time for 10000 iterations with message size 4 bytes: 0.007472 seconds
+Results appended to results.csv
+Testing message size: 8 bytes
+Time for 10000 iterations with message size 8 bytes: 0.007744 seconds
+Results appended to results.csv
+Testing message size: 16 bytes
+Time for 10000 iterations with message size 16 bytes: 0.008629 seconds
+Results appended to results.csv
+Testing message size: 32 bytes
+Time for 10000 iterations with message size 32 bytes: 0.008642 seconds
+Results appended to results.csv
+Testing message size: 64 bytes
+Time for 10000 iterations with message size 64 bytes: 0.008964 seconds
+Results appended to results.csv
+Testing message size: 128 bytes
+Time for 10000 iterations with message size 128 bytes: 0.009450 seconds
+Results appended to results.csv
+Testing message size: 256 bytes
+Time for 10000 iterations with message size 256 bytes: 0.009237 seconds
+Results appended to results.csv
+Testing message size: 512 bytes
+Time for 10000 iterations with message size 512 bytes: 0.012177 seconds
+Results appended to results.csv
+Testing message size: 1024 bytes
+Time for 10000 iterations with message size 1024 bytes: 0.024373 seconds
+Results appended to results.csv
+Testing message size: 2048 bytes
+Time for 10000 iterations with message size 2048 bytes: 0.032484 seconds
+Results appended to results.csv
+Testing message size: 4096 bytes
+Time for 10000 iterations with message size 4096 bytes: 0.063035 seconds
+Results appended to results.csv
+
+real	0m4.449s
+user	0m1.628s
+sys	0m0.637s
+----------------------------------------
+Running NonBlockringshift with nProcessors ...
+Testing message size: 2 bytes
+Time for 10000 iterations with message size 2 bytes: 0.007839 seconds
+Results appended to results.csv
+Testing message size: 4 bytes
+Time for 10000 iterations with message size 4 bytes: 0.007316 seconds
+Results appended to results.csv
+Testing message size: 8 bytes
+Time for 10000 iterations with message size 8 bytes: 0.007311 seconds
+Results appended to results.csv
+Testing message size: 16 bytes
+Time for 10000 iterations with message size 16 bytes: 0.008479 seconds
+Results appended to results.csv
+Testing message size: 32 bytes
+Time for 10000 iterations with message size 32 bytes: 0.008407 seconds
+Results appended to results.csv
+Testing message size: 64 bytes
+Time for 10000 iterations with message size 64 bytes: 0.009438 seconds
+Results appended to results.csv
+Testing message size: 128 bytes
+Time for 10000 iterations with message size 128 bytes: 0.009624 seconds
+Results appended to results.csv
+Testing message size: 256 bytes
+Time for 10000 iterations with message size 256 bytes: 0.009097 seconds
+Results appended to results.csv
+Testing message size: 512 bytes
+Time for 10000 iterations with message size 512 bytes: 0.011747 seconds
+Results appended to results.csv
+Testing message size: 1024 bytes
+Time for 10000 iterations with message size 1024 bytes: 0.023050 seconds
+Results appended to results.csv
+Testing message size: 2048 bytes
+Time for 10000 iterations with message size 2048 bytes: 0.029870 seconds
+Results appended to results.csv
+Testing message size: 4096 bytes
+Time for 10000 iterations with message size 4096 bytes: 0.063432 seconds
+Results appended to results.csv
+
+real	0m4.013s
+user	0m3.207s
+sys	0m1.478s
+----------------------------------------
+Running NonBlockringshift with nProcessors ...
+Testing message size: 2 bytes
+Time for 10000 iterations with message size 2 bytes: 0.014574 seconds
+Results appended to results.csv
+Testing message size: 4 bytes
+Time for 10000 iterations with message size 4 bytes: 0.007955 seconds
+Results appended to results.csv
+Testing message size: 8 bytes
+Time for 10000 iterations with message size 8 bytes: 0.007422 seconds
+Results appended to results.csv
+Testing message size: 16 bytes
+Time for 10000 iterations with message size 16 bytes: 0.008856 seconds
+Results appended to results.csv
+Testing message size: 32 bytes
+Time for 10000 iterations with message size 32 bytes: 0.008910 seconds
+Results appended to results.csv
+Testing message size: 64 bytes
+Time for 10000 iterations with message size 64 bytes: 0.009443 seconds
+Results appended to results.csv
+Testing message size: 128 bytes
+Time for 10000 iterations with message size 128 bytes: 0.010270 seconds
+Results appended to results.csv
+Testing message size: 256 bytes
+Time for 10000 iterations with message size 256 bytes: 0.009360 seconds
+Results appended to results.csv
+Testing message size: 512 bytes
+Time for 10000 iterations with message size 512 bytes: 0.012464 seconds
+Results appended to results.csv
+Testing message size: 1024 bytes
+Time for 10000 iterations with message size 1024 bytes: 0.027653 seconds
+Results appended to results.csv
+Testing message size: 2048 bytes
+Time for 10000 iterations with message size 2048 bytes: 0.037237 seconds
+Results appended to results.csv
+Testing message size: 4096 bytes
+Time for 10000 iterations with message size 4096 bytes: 0.068038 seconds
+Results appended to results.csv
+
+real	0m5.301s
+user	0m8.097s
+sys	0m3.707s
+----------------------------------------
+Running NonBlockringshift with nProcessors ...
+Testing message size: 2 bytes
+Time for 10000 iterations with message size 2 bytes: 0.008853 seconds
+Results appended to results.csv
+Testing message size: 4 bytes
+Time for 10000 iterations with message size 4 bytes: 0.007760 seconds
+Results appended to results.csv
+Testing message size: 8 bytes
+Time for 10000 iterations with message size 8 bytes: 0.007706 seconds
+Results appended to results.csv
+Testing message size: 16 bytes
+Time for 10000 iterations with message size 16 bytes: 0.009051 seconds
+Results appended to results.csv
+Testing message size: 32 bytes
+Time for 10000 iterations with message size 32 bytes: 0.009172 seconds
+Results appended to results.csv
+Testing message size: 64 bytes
+Time for 10000 iterations with message size 64 bytes: 0.009668 seconds
+Results appended to results.csv
+Testing message size: 128 bytes
+Time for 10000 iterations with message size 128 bytes: 0.010334 seconds
+Results appended to results.csv
+Testing message size: 256 bytes
+Time for 10000 iterations with message size 256 bytes: 0.009795 seconds
+Results appended to results.csv
+Testing message size: 512 bytes
+Time for 10000 iterations with message size 512 bytes: 0.013642 seconds
+Results appended to results.csv
+Testing message size: 1024 bytes
+Time for 10000 iterations with message size 1024 bytes: 0.039251 seconds
+Results appended to results.csv
+Testing message size: 2048 bytes
+Time for 10000 iterations with message size 2048 bytes: 0.056380 seconds
+Results appended to results.csv
+Testing message size: 4096 bytes
+Time for 10000 iterations with message size 4096 bytes: 0.081215 seconds
+Results appended to results.csv
+
+real	0m4.566s
+user	0m18.090s
+sys	0m9.985s
+----------------------------------------
+Running NonBlockringshift with nProcessors ...
+Testing message size: 2 bytes
+Time for 10000 iterations with message size 2 bytes: 0.698350 seconds
+Results appended to results.csv
+Testing message size: 4 bytes
+Time for 10000 iterations with message size 4 bytes: 0.707473 seconds
+Results appended to results.csv
+Testing message size: 8 bytes
+Time for 10000 iterations with message size 8 bytes: 0.008218 seconds
+Results appended to results.csv
+Testing message size: 16 bytes
+Time for 10000 iterations with message size 16 bytes: 0.009730 seconds
+Results appended to results.csv
+Testing message size: 32 bytes
+Time for 10000 iterations with message size 32 bytes: 0.009609 seconds
+Results appended to results.csv
+Testing message size: 64 bytes
+Time for 10000 iterations with message size 64 bytes: 0.010383 seconds
+Results appended to results.csv
+Testing message size: 128 bytes
+Time for 10000 iterations with message size 128 bytes: 0.013382 seconds
+Results appended to results.csv
+Testing message size: 256 bytes
+Time for 10000 iterations with message size 256 bytes: 0.013489 seconds
+Results appended to results.csv
+Testing message size: 512 bytes
+Time for 10000 iterations with message size 512 bytes: 0.019322 seconds
+Results appended to results.csv
+Testing message size: 1024 bytes
+Time for 10000 iterations with message size 1024 bytes: 0.056818 seconds
+Results appended to results.csv
+Testing message size: 2048 bytes
+Time for 10000 iterations with message size 2048 bytes: 0.081856 seconds
+Results appended to results.csv
+Testing message size: 4096 bytes
+Time for 10000 iterations with message size 4096 bytes: 0.121472 seconds
+Results appended to results.csv
+
+real	0m10.116s
+user	4m3.455s
+sys	1m4.187s
+----------------------------------------
+Running NonBlockringshift with nProcessors ...
+Testing message size: 2 bytes
+Time for 10000 iterations with message size 2 bytes: 1.293861 seconds
+Results appended to results.csv
+Testing message size: 4 bytes
+Time for 10000 iterations with message size 4 bytes: 1.073869 seconds
+Results appended to results.csv
+Testing message size: 8 bytes
+Time for 10000 iterations with message size 8 bytes: 0.035166 seconds
+Results appended to results.csv
+Testing message size: 16 bytes
+Time for 10000 iterations with message size 16 bytes: 0.064649 seconds
+Results appended to results.csv
+Testing message size: 32 bytes
+Time for 10000 iterations with message size 32 bytes: 0.971838 seconds
+Results appended to results.csv
+Testing message size: 64 bytes
+Time for 10000 iterations with message size 64 bytes: 0.896415 seconds
+Results appended to results.csv
+Testing message size: 128 bytes
+Time for 10000 iterations with message size 128 bytes: 0.893233 seconds
+Results appended to results.csv
+Testing message size: 256 bytes
+Time for 10000 iterations with message size 256 bytes: 0.887817 seconds
+Results appended to results.csv
+Testing message size: 512 bytes
+Time for 10000 iterations with message size 512 bytes: 0.049794 seconds
+Results appended to results.csv
+Testing message size: 1024 bytes
+Time for 10000 iterations with message size 1024 bytes: 0.345207 seconds
+Results appended to results.csv
+Testing message size: 2048 bytes
+Time for 10000 iterations with message size 2048 bytes: 0.119253 seconds
+Results appended to results.csv
+Testing message size: 4096 bytes
+Time for 10000 iterations with message size 4096 bytes: 0.320059 seconds
+Results appended to results.csv
+
+real	0m14.612s
+user	7m26.693s
+sys	8m48.492s
+----------------------------------------
+JobId=32451467 JobName=HW
+   UserId=liangqi1(948536) GroupId=cmse(2362) MCS_label=N/A
+   Priority=85183 Nice=0 Account=general QOS=liangqi1
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:00:52 TimeLimit=00:30:00 TimeMin=N/A
+   SubmitTime=2024-03-12T13:19:19 EligibleTime=2024-03-12T13:19:19
+   AccrueTime=2024-03-12T13:19:19
+   StartTime=2024-03-12T13:19:28 EndTime=2024-03-12T13:49:28 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2024-03-12T13:19:28 Scheduler=Main
+   Partition=general-short AllocNode:Sid=dev-amd20:71843
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=amr-[013-014]
+   BatchHost=amr-013
+   NumNodes=2 NumCPUs=256 NumTasks=256 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=256,mem=4G,node=2,billing=622
+   AllocTRES=cpu=256,mem=4G,node=2,billing=622
+   Socks/Node=* NtasksPerN:B:S:C=128:0:*:* CoreSpec=*
+   MinCPUsNode=128 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=[intel14|intel16|intel18|(amr|acm)|nvf|nal|nif] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/ufs18/home-212/liangqi1/Documents/CMSE_822/project-3-mpi-p2p-team-9/job.sb
+   WorkDir=/mnt/ufs18/home-212/liangqi1/Documents/CMSE_822/project-3-mpi-p2p-team-9
+   Comment=stdout=/mnt/ufs18/home-212/liangqi1/Documents/CMSE_822/project-3-mpi-p2p-team-9/slurm-32451467.out 
+   StdErr=/mnt/ufs18/home-212/liangqi1/Documents/CMSE_822/project-3-mpi-p2p-team-9/slurm-32451467.out
+   StdIn=/dev/null
+   StdOut=/mnt/ufs18/home-212/liangqi1/Documents/CMSE_822/project-3-mpi-p2p-team-9/slurm-32451467.out
+   Power=
+   
+

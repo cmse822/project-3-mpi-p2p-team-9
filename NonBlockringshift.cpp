@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
     MPI_Request request_send, request_recv;
     MPI_Status status;
 
-    for (int i = 0; i < num_sizes; i++) {
+    for (int i = 0; i < 1; i++) {
         int msg_size = sizes[i];
         char *buffer = (char *)malloc(msg_size * sizeof(char));
 
@@ -44,7 +44,6 @@ int main(int argc, char *argv[])
         start_time = MPI_Wtime();
 
         
-        // need to modify here right now is not working
         for (int j = 0; j < iterations; j++) {
             MPI_Isend(buffer, msg_size, MPI_CHAR, (rank + 1) % size, 0, MPI_COMM_WORLD, &request_send);
             MPI_Irecv(buffer, msg_size, MPI_CHAR, (rank - 1 + size) % size, 0, MPI_COMM_WORLD, &request_recv);
@@ -52,8 +51,9 @@ int main(int argc, char *argv[])
             MPI_Wait(&request_send, &status);
             MPI_Wait(&request_recv, &status);
 
-            // cout << "Rank " << rank << " received from Rank " << (rank - 1 + size) % size << endl;
-            // cout << "Rank " << rank << " sent to Rank " << (rank + 1) % size << endl;
+            cout << "Rank " << rank << " received from Rank " << (rank - 1 + size) % size << endl;
+            cout << "Rank " << rank << " sent to Rank " << (rank + 1) % size << endl;
+            cout << "iters" << j << endl;
         }
         end_time = MPI_Wtime();
         elapsed_time = end_time - start_time;
