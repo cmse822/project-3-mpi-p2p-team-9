@@ -1,0 +1,42 @@
+--------------------------------------------------------------------------
+mpiexec was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpiexec command
+      line parameter option (remember that mpiexec interprets the first
+      unrecognized command line token as the executable).
+
+Node:       lac-033
+Executable: P2.out
+--------------------------------------------------------------------------
+JobId=32444053 JobName=HW
+   UserId=daihaish(6182369) GroupId=cmse(2362) MCS_label=N/A
+   Priority=60262 Nice=0 Account=general QOS=daihaish
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:00:17 TimeLimit=00:10:00 TimeMin=N/A
+   SubmitTime=2024-03-12T10:07:54 EligibleTime=2024-03-12T10:07:54
+   AccrueTime=2024-03-12T10:07:54
+   StartTime=2024-03-12T10:08:09 EndTime=2024-03-12T10:18:09 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2024-03-12T10:08:09 Scheduler=Main
+   Partition=general-short AllocNode:Sid=dev-amd20:50662
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=lac-[033,035]
+   BatchHost=lac-033
+   NumNodes=2 NumCPUs=2 NumTasks=2 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=2,mem=4G,node=2,billing=622
+   AllocTRES=cpu=2,mem=4G,node=2,billing=622
+   Socks/Node=* NtasksPerN:B:S:C=1:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=[intel14|intel16|intel18|(amr|acm)|nvf|nal|nif] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/ufs18/home-244/daihaish/CMSE822-Dai/project-3-mpi-p2p-team-9/job.sb
+   WorkDir=/mnt/ufs18/home-244/daihaish/CMSE822-Dai/project-3-mpi-p2p-team-9
+   Comment=stdout=/mnt/ufs18/home-244/daihaish/CMSE822-Dai/project-3-mpi-p2p-team-9/slurm-32444053.out 
+   StdErr=/mnt/ufs18/home-244/daihaish/CMSE822-Dai/project-3-mpi-p2p-team-9/slurm-32444053.out
+   StdIn=/dev/null
+   StdOut=/mnt/ufs18/home-244/daihaish/CMSE822-Dai/project-3-mpi-p2p-team-9/slurm-32444053.out
+   Power=
+   
+
