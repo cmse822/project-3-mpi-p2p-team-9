@@ -47,21 +47,25 @@ In comparison of the results from Part 1 (which are presented in the figures bel
 
 The code for Blocking Ring Shift can be found [here](./MPIringshift.cpp)
 
-![](./Visualization2/P3-1-new.png)
+![](./Visualization2/P3-1.png)
 
- The figure above shows the latency for different processor and message sizes for the blocking case. Execution time increases with the number of processes on average, due to network setups and incurred delays. On average, the 32 process case gives the highest latency, and the 2 process case gives us the lowest.
+ The figure above shows the latency for different processor and message sizes for the blocking case. 
  
-![](./Visualization2/P3-2-new.png)
+![](./Visualization2/P3-2.png)
 The figure above shows the bandwidth across different process sizes and message sizes for the blocking case. For all processes, bandwidth monotonically increases as the message size increases.
 
+For `amd-20` which the cluster we used have a restriction of 128 cores per node, which means that the 256 processes cannot be accommodated on a single node. Consequently, this setup exhibits the lowest bandwidth and highest latency. Notably, the scenario involving only two processes demonstrates the highest bandwidth, as these processors reside within the same socket.Surprisingly, the latency of off-node communication is remarkably close to that of on-node communication in the nonblocking case, indicating the efficiency of the network. 
 
 ## Part 4: Non-blocking MPI Ring Shift
 
 The code for Non-Blocking Ring Shift can be found [here](./NonBlockringshift.cpp)
 
-![](./Visualization2/P3-3-new.png)
+![](./Visualization2/P3-3.png)
 
-![](./Visualization2/P3-4-new.png)
+![](./Visualization2/P3-4.png)
+
+When utilizing 256 cores spread across two nodes, latency increases significantly compared to executing processes on a single node. This is primarily attributed to the delay incurred by inter-node communication, contrasting with the swift memory access within a single node. While the latency remains relatively stable for on-node and off-node communications in the blocking scenario, non-blocking off-node communication exhibits notably higher latency. This is because non-blocking communication necessitates confirmation of message reception, contrasting with the straightforward function call in blocking communication. Consequently, the bandwidth observed in blocking communication surpasses that of non-blocking communication due to the additional overhead involved.
+
 
 
 In the figures below, results for Blocking and Non-blocking Ring Shift operations have been compared.
