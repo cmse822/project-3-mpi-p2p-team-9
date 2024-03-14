@@ -47,11 +47,11 @@ In comparison of the results from Part 1 (which are presented in the figures bel
 
 The code for Blocking Ring Shift can be found [here](./MPIringshift.cpp)
 
-![](./Visualization2/P3-1.png)
+![](./Visualization2/P3-1-new.png)
 
  The figure above shows the latency for different processor and message sizes for the blocking case. Execution time increases with the number of processes on average, due to network setups and incurred delays. On average, the 32 process case gives the highest latency, and the 2 process case gives us the lowest.
  
-![](./Visualization2/P3-2.png)
+![](./Visualization2/P3-2-new.png)
 The figure above shows the bandwidth across different process sizes and message sizes for the blocking case. For all processes, bandwidth monotonically increases as the message size increases.
 
 
@@ -59,13 +59,13 @@ The figure above shows the bandwidth across different process sizes and message 
 
 The code for Non-Blocking Ring Shift can be found [here](./NonBlockringshift.cpp)
 
-![](./Visualization2/P3-3.png)
+![](./Visualization2/P3-3-new.png)
 
-![](./Visualization2/P3-4.png)
+![](./Visualization2/P3-4-new.png)
 
 
 In the figures below, results for Blocking and Non-blocking Ring Shift operations have been compared.
 
-![](./Visualization2/P3-c1.png)
+![](./Visualization2/P3-c1-new.png)
 
-![](./Visualization2/p3-c2.png)
+![](./Visualization2/P3-c2-new.png)
